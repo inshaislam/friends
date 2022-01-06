@@ -1,0 +1,51 @@
+
+
+.img{
+    width: 350px;
+}
+.section{
+    display: flex;
+    margin-bottom: 100px;
+}
+.write{
+    box-shadow: 10px 10px 40px rgb(61, 61, 172);
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 6px;
+    border-left: 8px solid;
+    border-radius: 6px;
+    
+}
+.main{
+    width: 50%;
+}
+#first{
+    margin-right: 90px;
+    border-image: linear-gradient(green, blue);
+    border-image-slice: 1;
+}
+#second{
+    margin-right: 90px;
+    border-image: linear-gradient(blue, rgb(162, 0, 255));
+    border-image-slice: 1;
+}
+#third{
+    margin-right: 90px;
+    border-image: linear-gradient(tomato, green);
+    border-image-slice: 1;
+}
+#fourth{
+    margin-right: 90px;
+    border-image: linear-gradient(rgb(248, 8, 188), rgb(0, 124, 128));
+    border-image-slice: 1;
+}
+#fifth{
+    margin-right: 90px;
+    border-image: linear-gradient(purple, tomato);
+    border-image-slice: 1;
+}
+#sixth{
+    margin-left: 90px;
+    border-image: linear-gradient(purple, blue);
+    border-image-slice: 1;
+}
